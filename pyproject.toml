@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "drf-int"
+version = "0.1.0"
+description = ""
+authors = ["eddy.di <eddy.di.fint@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+django-parler = "^2.3"
+django-parler-rest = "^2.2"
+djangorestframework = "^3.15.1"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+django-rosetta = "^0.10.0"
+django-cors-headers = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
